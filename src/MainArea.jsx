@@ -1,7 +1,3 @@
-export const Main = () => {
-  return (
-    <>
-      <main>Main</main>
-    </>
-  );
+export const MainArea = ({ count }) => {
+  return <main>{count}</main>;
 };

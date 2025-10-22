@@ -1,7 +1,7 @@
-export const Sidebar = () => {
+export const Sidebar = ({ count, setCount }) => {
   return (
-    <>
-      <aside>Sidebar</aside>
-    </>
+    <aside>
+      <button onClick={() => setCount(count + 1)}>Klick mich</button>
+    </aside>
   );
 };
