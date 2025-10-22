@@ -1,3 +1,7 @@
 export const Sidebar = () => {
-  return <aside>Sidebar</aside>;
+  return (
+    <>
+      <aside>Sidebar</aside>
+    </>
+  );
 };
